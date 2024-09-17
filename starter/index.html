@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="wrapper">
+        <h1 class="main-title">To Do List</h1>
+        <div class="input-area">
+          <form class="form form--add">
+            <input
+              id="input-todo"
+              type="text"
+              placeholder="What's your plan?"
+            />
+            <button class="btn btn--add">+</button>
+          </form>
+        </div>
+
+        <div class="listplace">
+          <div class="listplace-title">
+            <div class="fixed all">All</div>
+            <div class="fixed progress">In Progress</div>
+            <div class="fixed completed">Completed</div>
+          </div>
+
+          <ul class="listholder">
+            <!-- <li class="list">
+              <p>자바스크립트 복습</p>
+              <div class="button-box">
+                <button class="btn btn--check">check</button>
+                <button class="btn btn--trash">trash</button>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+/* Reset */
+body,
+ul,
+p,
+button {
+  margin: unset;
+  padding: unset;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+
+.done {
+  color: white;
+  background-color: #4c454d;
+}
+
+/* Typography */
+:root {
+  font-size: 62.5%;
+  font-family: fantasy;
+}
+
+/* Components */
+body {
+  background-image: url(images/cover.jpg);
+}
+
+.wrapper {
+  /* box-shadow: inset 0 0 20px rgb(60, 56, 7); */
+  margin: 0 20px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 30px; */
+}
+
+.section {
+  background-color: bisque;
+  /* box-shadow: inset 0 0 20px rgb(233, 226, 149); */
+  max-width: 800px;
+  margin: 0 auto;
+  /* 이미지로부터 색상 추출 - ctrl + C */
+  border-top: 20px solid #eeb177;
+  border-bottom: 20px solid #eeb177;
+}
+
+.main-title {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  margin-bottom: 10px;
+}
+
+#input-todo {
+  width: 500px;
+  margin: 4px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 4px;
+}
+
+.listplace {
+  /* box-shadow: inset 0 0 20px red; */
+  font-size: 1.8rem;
+}
+
+.listplace-title {
+  /* box-shadow: inset 0 0 20px blue; */
+  display: flex;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.fixed {
+  /* box-shadow: inset 0 0 20px pink; */
+  padding: 1em;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.list {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-top: none;
+}
+
+.button-box {
+  display: flex;
+  gap: 20px;
+}
